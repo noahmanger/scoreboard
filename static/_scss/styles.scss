@@ -1,0 +1,40 @@
+@import 'bourbon';
+@import "neat";
+@import "base/base";
+
+body {
+  background-color: #f9f9f9;
+}
+
+.container {
+  @include outer-container();
+}
+
+.sb {
+  border: 1px solid #cdcdcd;
+  padding: 2rem;
+}
+
+.sb__row {
+  @include clearfix();
+  border-bottom: 1px solid #cdcdcd;
+  padding: 1rem 0;
+}
+
+.contestant {
+  @include span-columns(2);
+}
+
+.score-container {
+  @include span-columns(8);
+}
+
+.score-incrementer {
+  @include span-columns(2);
+}
+
+.bar {
+  width: 0;
+  height: 2rem;
+  background-color: #999;
+}

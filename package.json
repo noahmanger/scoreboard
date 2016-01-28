@@ -1,0 +1,42 @@
+{
+  "name": "scoreboard",
+  "version": "1.0.0",
+  "description": "A simple web app for keeping score",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "node app.js",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahmanger/scoreboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noahmanger/scoreboard/issues"
+  },
+  "homepage": "https://github.com/noahmanger/scoreboard#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "express-handlebars": "^2.0.1",
+    "jquery": "^2.2.0",
+    "mongojs": "^2.3.0",
+    "mongoose": "^4.3.7"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.7",
+    "hbsfy": "^2.4.1",
+    "node-bourbon": "^4.2.3",
+    "node-neat": "^1.7.2",
+    "vinyl-buffer": "^1.0.0",
+    "watchify": "^3.7.0"
+  }
+}
